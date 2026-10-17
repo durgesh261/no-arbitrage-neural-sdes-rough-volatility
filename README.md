@@ -60,17 +60,17 @@ $$S_{t+\Delta t} = \exp\left( X_t + \Delta X_t \right) > 0 \quad \text{strictly 
 
 ---
 
-## 3. German University Curriculum Alignment
+## 3. Core Theoretical Foundations & Research Context
 
-This project directly aligns with advanced research areas taught at premier German research universities:
+This research synthesizes advanced principles across continuous-time stochastic analysis, quantitative finance, and deep continuous-depth architectures:
 
-| German University & Chair | Core Scientific Competencies Demonstrated |
+| Research Domain | Theoretical Principles Applied |
 | :--- | :--- |
-| **University of Göttingen**<br>*(Institute for Mathematical Stochastics)* | Itô calculus, martingale representation theorems, fractional Brownian motion ($H < 0.5$). |
-| **University of Augsburg**<br>*(Chair of Mathematical Finance & Stochastics)* | Continuous-time asset pricing, stochastic differential equations, Breeden-Litzenberger inversion. |
-| **TU Dortmund**<br>*(Faculty of Statistics & Econometrics)* | Non-Markovian volatility surfaces, Monte Carlo discretization error analysis. |
-| **TU Berlin / Berlin Mathematical School (BMS)**<br>*(Stochastic Analysis Group)* | Rough paths theory, infinite-dimensional Malliavin calculus, continuous neural flows. |
-| **Paderborn University**<br>*(Heinz Nixdorf Institute & Computer Science)* | High-performance tensorized stochastic simulation, microservice deployment, and PyTest verification. |
+| **Continuous-Time Stochastic Calculus** | Itô's lemma, local and true martingale representation theorems, Girsanov measure change. |
+| **Quantitative Derivatives Modeling** | Continuous-time asset pricing, risk-neutral valuation, Breeden-Litzenberger density inversion. |
+| **Non-Markovian Financial Econometrics** | Rough paths, fractional Brownian motion ($H < 0.5$), non-local volatility surface dynamics. |
+| **Neural Differential Equations** | Neural SDE parameterization, adjoint sensitivity, constrained drift manifolds. |
+| **Scientific Computing & Verification** | Tensorized Log-Euler-Maruyama simulation, divided-difference numerical differentiation, automated test harnesses. |
 
 ---
 
@@ -135,6 +135,15 @@ Interactive Swagger API documentation: [http://localhost:8000/docs](http://local
 
 ---
 
-## 7. Author & Contact
-* **Applicant:** Durgesh Kanjariya
-* **Target:** Master of Science in Data Science / Computer Science in Germany
+## 7. License & Citation
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+```bibtex
+@article{neural_sde_rough_volatility_2026,
+  title={No-Arbitrage Neural Stochastic Differential Equations for Rough Volatility Modeling},
+  author={Quantitative Research Group},
+  year={2026},
+  journal={Open Source Quantitative Research Archive}
+}
+```

@@ -106,7 +106,7 @@ def root():
         "leverage_correlation_rho": -0.72,
         "martingale_drift_condition": "mu(S, t) = r * S_t strictly enforced under Q",
         "documentation": "/docs",
-        "author": "Durgesh Kanjariya"
+        "author": "Quantitative Research Group"
     }
 
 

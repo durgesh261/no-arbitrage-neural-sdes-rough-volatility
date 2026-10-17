@@ -7,7 +7,7 @@ name = "no-arbitrage-neural-sdes-rough-volatility"
 version = "1.0.0"
 description = "No-Arbitrage Neural Stochastic Differential Equations for Rough Volatility"
 readme = "README.md"
-authors = [{ name = "Durgesh Kanjariya" }]
+authors = [{ name = "Quantitative Research Group" }]
 license = { text = "MIT" }
 requires-python = ">=3.10"
 dependencies = [
