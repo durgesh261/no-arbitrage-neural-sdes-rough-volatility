@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  neural-sde-engine:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: neural_sde_rough_volatility
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
